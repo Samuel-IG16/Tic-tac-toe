@@ -1,0 +1,19 @@
+td{
+  height: 130px;
+  width: 130px;
+  text-align: center;
+  border: 5px solid black;
+  font-size: 100px
+}
+button{
+  height: 130px;
+  width: 130px;
+  border: 0px transparent;
+  border-radius: 2%;
+  margin: 4px;
+  padding: 4px;
+}
+#b{
+  height: 50px;
+  width: 80px;
+}
