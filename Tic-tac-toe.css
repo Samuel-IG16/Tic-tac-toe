@@ -1,13 +1,13 @@
 td{
   height: 100px;
-  width: 100px;
+  width: 90px;
   text-align: center;
   border: 5px solid black;
   font-size: 100px
 }
 button{
   height: 100px;
-  width: 100px;
+  width: 90px;
   border: 0px transparent;
   border-radius: 2%;
   margin: 4px;
@@ -16,4 +16,18 @@ button{
 #b{
   height: 50px;
   width: 80px;
+}
+table {
+width: 100%;}
+
+/* if the browser window is at least 800px-s wide: */
+@media screen and (min-width: 800px) {
+  table {
+  width: 90%;}
+}
+
+/* if the browser window is at least 1000px-s wide: */
+@media screen and (min-width: 1000px) {
+  table {
+  width: 80%;}
 }
