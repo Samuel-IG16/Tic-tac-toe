@@ -14,7 +14,7 @@ $('button').click(function() {
   		$("#screen").text("Player One Turn Follows");
 
       $(this).addClass("fa fa-times");
-      if (check('fa-check')) {
+      if (check('fa-times')) {
         turn = 0;
         $("#screen").text("Player Two Wins!");
       }else {
